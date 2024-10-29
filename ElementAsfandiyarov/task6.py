@@ -13,9 +13,10 @@ class ElementAsfandiyarov():
 		return self.name
 	@property
         def getter_symbol(self):
-        	return self.symbol
+		return self.symbol
 	@property
-        def getter_number(self):
+	def getter_number(self):
 		return self.number
+
 element = ElementAsfandiyarov('Водород', 'H', 1)
 element.dump
