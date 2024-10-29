@@ -12,7 +12,7 @@ class ElementAsfandiyarov():
 	def getter_name(self):
 		return self.name
 	@property
-        def getter_symbol(self):
+	def getter_symbol(self):
 		return self.symbol
 	@property
 	def getter_number(self):
