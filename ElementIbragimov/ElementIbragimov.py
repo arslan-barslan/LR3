@@ -4,7 +4,7 @@ class ElementIbragimov():
 		self.symbol = symbol
 		self.number = number 
 
-elementik=ElementIbragimov('Углерод','C',6)
+elementik = ElementIbragimov('Углерод','C',6)
 
 
 
