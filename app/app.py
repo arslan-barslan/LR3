@@ -26,3 +26,19 @@ class Conus():
                 
         def calc_volume(self):
                 pass
+
+class ConusCals(Conus):
+        def __init__(self, radius, height):
+                super().__init__(radius, height)
+        def calc_volume(self):
+                return (1/3)*3.14*(self.radius**2)*self.height
+
+print("Введите радиус и высоту конуса")
+try:
+	x = float(input())
+	y = float(input())
+	object = ConusCals(x, y)
+	print("Объем конуса равен", object.calc_volume())
+except ValueError:
+	print("Неверное значение")
+
